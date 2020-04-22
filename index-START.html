@@ -77,7 +77,7 @@ const removeTransition = (e)=>{
  }
  
 const keys= document.querySelectorAll('.key');
-for (key of keys){
+for (const key of keys){
   key.addEventListener('transitionend', removeTransition)
 }
 
